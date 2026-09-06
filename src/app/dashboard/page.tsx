@@ -54,7 +54,7 @@ export default function DashboardPage() {
         <header className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold tracking-tight">Hackathon Prototype</h1>
-            <p className="text-muted-foreground">Pre-configured with Next.js, Supabase, and Gemini 2.5 Flash.</p>
+            <p className="text-muted-foreground">Pre-configured with Next.js, Supabase, and Gemini 3.6 Flash.</p>
           </div>
           <Badge variant="outline" className="px-3 py-1">Ready for Build</Badge>
         </header>
