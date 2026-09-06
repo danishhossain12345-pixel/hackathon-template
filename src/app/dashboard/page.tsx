@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, Activity, LayoutDashboard, Terminal } from "lucide-react";
+import { AnalyticsChart } from "@/components/dashboard/analytics-chart";
 
 export default function DashboardPage() {
   const [prompt, setPrompt] = useState("");
@@ -58,6 +59,10 @@ export default function DashboardPage() {
           <Badge variant="outline" className="px-3 py-1">Ready for Build</Badge>
         </header>
 
+        {/* Bklit-style Visuals Card */}
+        <AnalyticsChart />
+
+        {/* Gemini Prompt & Output Interface */}
         <div className="grid gap-6 md:grid-cols-2">
           <Card>
             <CardHeader>
